@@ -9,16 +9,16 @@ Bundle 'kien/ctrlp.vim'
 
 Plugin 'flazz/vim-colorschemes'
 
-syntax on
-
 " Enable file type detection. Do this after Vundle calls.
-"filetype plugin indent on
+filetype plugin indent on
 
 " 256 colours, please
 set t_Co=256
 " Dark twilight scheme
 set background=dark
 colorscheme twilight256
+
+syntax on
 
 " Tabs, indentation and lines
 " 2 spaces please
